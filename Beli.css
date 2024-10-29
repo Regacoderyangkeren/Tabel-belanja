@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(Market-Place3.jpg);
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+}
+
+.form-container {
+    background-color: #745832;
+    padding: 70px 70px; 
+    border-radius: 50px;
+    width: 70%; 
+    color: #fff;
+    text-align: justify;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+    overflow: hidden; 
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed white; 
+    padding-bottom: 8px; 
+    display: inline-block; 
+    width: 100%;
+}
+
+.form-container p.menu-title {
+    font-size: 18px; 
+    margin: 20px 0 10px; 
+    text-align: left; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="date"],
+.form-group select {
+    width: 100%; 
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.menu-item {
+    display: flex;
+    align-items: left; 
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}
+
+.menu-item input[type="number"] {
+    width: 85%;
+}
+
+.pembayaran-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.pembayaran-group label {
+    margin-right: 5px; 
+}
+
+.pembayaran-group input[type="radio"] {
+    margin-right: 5px; 
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.button-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px; 
+}
+
+@media (max-width: 500px) {
+.container {
+  width: 50vh;
+  margin: auto;
+            }
+}
+
+.button-clear {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.button-send {
+    background-color: #5cb85c;
+    color: #fff;
+}
